@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Randhir Dance academy
+    block scripts
+    block style 
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="../static/images/logo.png")
+                | RDA
+            li #[a(href="/") Home]
+            li #[a(href="/")  about]
+            li #[a(href="/contact")  contact] 
+            li #[a(href="/")  services]
+            li #[a(href="/")  classInfo]
+    
+    block content
+    footer#footer 
+        | Copyright © 2019 Randhirdanceacdamy.com | All rights reserved
